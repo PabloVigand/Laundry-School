@@ -1,0 +1,475 @@
+*{
+	margin: 0;
+	padding: 0;
+    margin-right: 0px;
+	box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+
+/* BOTONERA NAV -USUARIO   */
+header{
+    height: 160px;
+    background: #000000;
+   
+}
+ .LogoHeader{
+    height: 140px;
+    float: left;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+    nav{
+        text-align: center;
+        
+    }
+        nav ul{
+            margin: 0px auto;
+            text-align: center;
+            padding-left: 0px;
+            width: 50%;
+            display: inline-block;
+            margin-top: 60px;
+        }
+            nav ul li {
+                display: inline-block;
+                list-style: none;
+                margin: 0px auto;
+                width: 150px;
+            }
+                nav ul li a{
+                    font-size: 18px;
+                    text-decoration: none;
+                    margin: 0px auto;
+                }
+                    nav ul li a:hover{
+                        text-shadow: 0 0 5px rgb(248, 248, 248), 0 0 10px rgb(248, 248, 248), 0 0 15px rgb(248, 248, 248);
+                        color: white;
+                        transition: all 500ms;
+                    }
+                    .linea{
+                        height: 20px;
+                        width: 0.5px;
+                        background: rgb(46, 46, 46);
+                        display: inline-block;
+                        position: relative;
+                        top: 4px;
+                    }
+.Usuario{
+    float: right;
+    background:#060709 ;
+    border: transparent;
+    margin-top: 61px;
+}
+    .Usuario a{
+        margin-left: 10px;
+        text-decoration: none;
+        color: #AAAAAA;
+        letter-spacing: 2px;
+    }
+    .Usuario a:hover{
+        text-shadow: 0 0 5px rgb(248, 248, 248), 0 0 10px rgb(248, 248, 248), 0 0 15px rgb(248, 248, 248);
+        color: white;
+        transition: all 500ms;
+    }
+            .Usuario li:hover{
+                transform: scale(1.2);
+                transition: all 500ms;
+            }
+                .Usuario img{
+                    margin-bottom:5px ;
+                    
+                }
+
+
+/* CARTEL DE NEON CON BOTON DE SUBCRIPCION Y FONDO BUZO LAUNDRY */
+#Presentacion{
+    background: #000000;
+    width: 100%;
+    padding-bottom: 85px;
+    padding-top: 5px;
+    border: #000000;
+}
+#Presentacion .container{
+    padding-left: 0px;
+}
+.contenedor_parrafo_img{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+
+}
+.ContenedorGNeon{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    justify-content: center;
+}
+.cajaNeon{
+    height: 380px;
+    width: 700px;
+    justify-content: center;
+    /* border: 1px solid white; */
+}
+
+        .TituloNeon{
+            font-size: 80px;
+            font-family: 'Nunito', sans-serif;
+            color: white;
+            margin: 0px auto; 
+            letter-spacing: 2px;  
+            border-radius: 20px; 
+            padding: 4rem 0rem 4.4rem;
+            border: 0.4rem solid #fff; 
+            animation: flicker 1.5s infinite alternate; 
+            margin: 34px;
+        }
+        :root {
+            
+            
+            /* Set neon color */
+            --neon-text-color: rgba(224, 97, 12, 0.723);
+            --neon-border-color: rgb(72, 7, 184);
+}
+        #Presentacion h1::selection {
+            background-color: var(--neon-border-color);
+            color: var(--neon-text-color);
+        }
+        #Presentacion h1:focus {
+            outline: none;
+        }
+        @keyframes flicker {
+    
+            0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+                text-shadow:
+                    -0.2rem -0.2rem 1rem #fff,
+                    0.2rem 0.2rem 1rem rgba(255, 255, 255, 0.344),
+                    0 0 2rem var(--neon-text-color),
+                    0 0 4rem var(--neon-text-color),
+                    0 0 6rem var(--neon-text-color),
+                    0 0 8rem var(--neon-text-color),
+                    0 0 10rem var(--neon-text-color);
+                
+                box-shadow:
+                    0 0 .5rem #fff,
+                    inset 0 0 .5rem #fff,
+                    0 0 2rem var(--neon-border-color),
+                    inset 0 0 2rem var(--neon-border-color),
+                    0 0 4rem var(--neon-border-color),
+                    inset 0 0 4rem var(--neon-border-color);        
+            }
+            
+            20%, 24%, 55% {        
+                text-shadow: none;
+                box-shadow: none;
+            }    
+        }
+
+
+
+
+
+        .cajaParrafoNeon{
+            height: 150px;
+            width: 600px;
+            display: flex;
+            text-align: center;
+            margin: 0px auto;
+        }
+
+        .cajaParrafoNeon p{
+            width: 100%;
+            display: flex;
+            color: white;
+            font-size: 21px;
+            margin: 0px auto;
+            align-items: center;
+            justify-content: center;
+            margin: 0px auto;
+            
+        }
+
+
+        
+        .BotonSub{
+            background: black;
+            margin: 0px auto;
+            text-align: center;
+            background:rgb(0, 0, 0);
+                height: 90px;
+                width: 250px;
+                border-radius: 5px;
+                border: 2px solid rgb(164, 130, 215);
+                
+        }
+            .BotonSub a{
+                color:rgb(164, 130, 215);
+                text-decoration: none;
+                font-weight: 700;
+                letter-spacing: 1.5px;
+                font-size: 18px;
+            } 
+            .BotonSub:hover{
+                box-shadow: 0 0 5px rgb(164, 130, 215), 0 0 10px rgb(164, 130, 215), 0 0 20px rgb(164, 130, 215);
+                transition: all 0.3s ease;
+            }
+            
+
+/* COMPARTIDOS */
+
+                        .TituloContenedor{
+                            background: black;
+                            margin-top: 60px;
+                            text-align: center;
+                            padding: 15px;
+                            margin-bottom: 30px;
+                            
+                        }
+                        .Style-Gral-White{
+                            font-family: 'Manrope', sans-serif;
+                            color: white;
+                        }
+                        .Style-Gral-Black{
+                            font-family: 'Manrope', sans-serif;
+                            color: black;
+                        }
+                        .Stylo-Fuente-Parrafo{
+                            font-size: 18px;
+                            padding: 15px;
+                            text-align: center;
+                        }
+                        .ContenParrafoYImg{
+                            border: 1px solid rgb(228, 222, 222);
+                            margin: auto;
+                        }
+
+
+/* ................................................... */
+
+/* TESTIMONIOS DE GENTE QUE REALIZO CURSOS  */
+.contenidoTestimonios{
+    height: 400px;
+    margin:0px auto;
+    overflow-x:auto;
+    
+}
+.contenidoTestimonios::-webkit-scrollbar{
+    background: #f7f7f7;
+    border-radius: 5px;
+    height: 10px;
+}
+.contenidoTestimonios::-webkit-scrollbar-thumb{
+    background:#010101;
+    border-radius: 5px;
+}
+    .testimoniosCard{
+        margin: 0px auto;
+        text-align: center;
+        display: flex;
+        position: relative;  /* el position relative le permite a las card no desordenarse, y que el width:100% de las card tenga sentido*/
+    }
+        #Testimonios .card{
+            
+            height: 350px;
+            min-width: 235px;
+            margin: 0px auto;
+            text-align: center;
+            border: 1px solid rgb(228, 222, 222);
+            background: #f9f9f985;
+            box-shadow: 0px 2px 5px #8b8b8b52;
+            margin-right: 10px;
+            margin-left: 10px;
+            margin-top: 14px;
+        }
+            .card h3{
+                padding-top: 10px;
+            }
+                .card p{
+                    padding-top: 10px;
+                    font-weight: 500;
+                }
+                    .card img{
+                        margin:0px auto;
+                        height: 150px;
+                        width: 150px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+                        text-align: center;
+                    }
+                        .conten{
+                            height: 100px;
+                            position: relative;
+                            margin: 5px;
+                            width: 200px;
+                            margin: 0px auto;
+                        }
+
+/*  INFORMACION SOBRE LAUNDRY PARA CONOCERNOS */
+
+.Contenedor_QuienesSomos{
+    display: flex;
+}
+.Parrafo_quienesSomos{
+    width: 900px;
+}
+.Parrafo_quienesSomos p{
+    width: 100%;
+}
+.BañeraQuienesSomos {
+    width: 100%;
+    height: 420px;
+    }
+
+
+
+/* EXPLICACION BREVE DE CURSOS Y BOTON DIRIGIDO A CURSOS  */
+section .contenedor_img_Resumen{
+    display: flex;
+}
+.elpana{
+        width: 400px;
+        height: 420px;
+    }
+.ResumenCursos{
+    text-align: center;
+}
+    .ResumenCursos h1{
+        margin-top: 25px;
+        width: 100%;
+    }
+    .ResumenCursos p{
+        width: 100%;
+    }
+        .StrongCursos{
+            
+            color: rgb(164, 130, 215);
+            
+        }
+            .BotonVerCursos{
+                background:rgb(251, 251, 251);
+                text-align: center;
+                height: 50px;
+                width: 200px;
+                border-radius: 5px;
+                border: 2px solid rgb(164, 130, 215);
+                
+            }
+                .BotonVerCursos a{
+                    color: rgb(164, 130, 215);
+                    text-align: center;
+                    text-decoration: none;  
+                    font-size: 20px;
+                    font-weight: 500;  
+                    
+                }
+                .BotonVerCursos:hover{
+                    transition: all 500ms;
+                    transform: scale(1.02);
+                    
+                }
+                
+
+/* DIRECCIONES DE SUCURSALES */
+
+
+.contenidoSucursales{
+    height: 400px;
+    width: 100%;
+    margin:0px auto;
+    overflow-x:auto;
+    
+    
+}
+.contenidoSucursales::-webkit-scrollbar{
+    background: #f7f7f7;
+    border-radius: 5px;
+    height: 10px;
+}
+.contenidoSucursales::-webkit-scrollbar-thumb{
+    background:#050505;
+    border-radius: 5px;
+}
+    .sucursalesCard{
+        margin: 0px auto;
+        text-align: center;
+        display: flex;
+        position: relative;  /* el position relative le permite a las card no desordenarse, y que el width:100% de las card tenga sentido*/
+    }
+    #Sucursales .card{
+            min-height: 350px;
+            min-width: 235px;
+            margin: 0px auto;
+            text-align: center;
+            border: transparent;
+            background: rgba(233, 152, 13, 0.539);
+            margin-right: 20px;
+            box-shadow: 0px 2px 5px #8b8b8b52;
+            border: 1px solid rgba(233, 152, 13, 0.539);
+        }
+        
+            
+                #Sucursales .card img{
+                        margin:0px auto;
+                        height: 150px;
+                        width: 150px;
+                        border-radius: 10px;
+                        object-fit: cover;
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+                        text-align: center;
+                    }
+                    #Sucursales .conten_Contactos{
+                            width: 200px;
+                            margin: 0px auto;
+                            height: 80px;
+                        }
+
+                        #Sucursales .card .Icon_Contacto{
+                            width: 32px;
+                            height: 32px;
+                            margin: 5px;
+                        }
+                        #Sucursales h3{
+                            font-size: 20px;
+                            font-weight: 700;
+                        }
+                        #Sucursales h5{
+                            font-size: 16px;
+                        }
+                        .conten_Icon_Contacto{
+                            align-items: center;
+                            justify-content: center;
+                            
+                        }
+
+                        footer{
+                            text-align: center;
+                            background: #000000;
+                            padding-bottom: 5px;
+                            margin-top: 50px;
+
+                        }
+                        footer a{
+                            color: #575757;
+                            text-decoration: none;
+                            padding-right: 30px;
+                            padding-left: 30px;
+                            font-size: 16px;
+                            font-family: 'Manrope', sans-serif;
+                            font-weight: 900;
+                        }
+                        footer p{
+                            color: #575757;
+                            font-size: 13px;
+                            font-family: 'Manrope', sans-serif;
+                            font-weight: 900;
+                        }
+                        footer a:hover{
+                            color: #f5f5f5;
+                            transition: all 400ms;
+                            
+                        }

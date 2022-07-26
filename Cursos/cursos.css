@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+header{
+    height: 160px;
+    background: #060709;
+}
+header .LogoHeader{
+    height: 160px;
+    margin-left: 60px;
+}
+
+.Style-Gral-Black{
+    font-family: 'Manrope', sans-serif;
+    color: black;
+}
+
+/* BOTON USUARIO  */
+.Usuario{
+    float: right;
+    margin-top: 60px;
+    margin-right: 60px;
+    background:#060709 ;
+    border: transparent;
+}
+    .Usuario img{
+        margin-bottom:0px ;
+        
+    }
+
+/* CONTENEDORES CON INFORMARCION DE LOS CURSOS  */
+
+.contenedor_Cards{  
+    text-align: center;
+}
+    
+    .card{
+        height: 620px;
+        width: 400px;
+        border: 1px solid rgb(87, 87, 87);
+        background: rgba(0, 0, 0, 0.933);
+        box-shadow: 5px 5px 20px #f8f5f859;
+        border-radius: 15px;
+        display: inline-block;
+        margin: 20px;
+        
+    }
+        .card img{
+            height: 200px;
+            width: 200px;
+            border-radius: 2%;
+            margin: 15px;
+            padding-top: 20px;
+        }
+            .card h2{
+                padding-top: 10px;
+                color: white;
+                letter-spacing: 1px;
+            }
+            .conten{
+                height: 230px;
+            }
+                .card p{
+                    padding-top: 10px;
+                    font-size: 15px;
+                    margin: 10px;
+                    color: rgb(180, 178, 178);
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                }
+                .container hr{
+                    background: rgba(253, 253, 253, 0.303);
+                    height: 0.1px;
+                    border: transparent;
+                    text-align: center;
+                }
+
+/* BOTON COMPRAR CURSO  */
+.Comprar{
+    margin-top: 30px;
+    background:rgb(250, 250, 250);
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    border-radius: 9px;
+    background: #d416bb;
+    border: transparent;
+    
+}
+    .Comprar a{
+        color: rgb(248, 248, 248);
+        text-align: center;
+        text-decoration: none;  
+        font-size: 20px;
+        font-weight: 500;  
+        
+    }
+        .Comprar:hover{
+            transition: all 500ms;
+            box-shadow: 0 0 5px #d416bb, 0 0 10px #d416bb, 0 0 20px #d416bb;
+        }
+        .Comprar a:hover{
+            transition: all 500ms;
+            transform: scale(1.5);
+        }
+
+
+/* RESPONSIVE  */
+@media screen and (max-width:440px){
+    .card{
+        height: 650px;
+        width: 350px;
+        
+        
+    }
+    .card .conten{
+        height: 250px;
+    }
+}
+@media screen and (max-width:395px){
+    .card{
+        height: 600px;
+        width: 300px;
+        
+        
+    }
+    .card img{
+        height: 150px;
+        width: 150px;
+        
+        
+    }
+    .card .conten{
+        height: 265px;
+    }
+    .card p{
+        font-size: 14px;
+        
+    }
+}
+@media screen and (max-width:340px){
+    .card{
+        height: 440px;
+        width: 280px;
+        
+        
+    }
+    .card img{
+        display: none;
+        
+        
+    }
+    .card .conten{
+        height: 280px;
+    }
+    .card p{
+        font-size: 14px;
+        
+    }
+}

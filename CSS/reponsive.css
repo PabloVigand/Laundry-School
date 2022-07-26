@@ -1,0 +1,192 @@
+/* SE ACOMODA EL NAV HASTA QUE APARECE EL MENU REPONSIVE  */
+@media screen and (max-width:1399px){
+    header nav ul li{
+        width: 120px;
+    }
+    section .imgBuzo{
+        display: none;
+    }
+    
+    #Presentacion .contenedor_parrafo_img{
+        justify-content: center;
+        margin: 0px auto;
+    }
+}
+@media screen and (max-width:1199px){
+    header nav ul li{
+        width: 100px;
+    }
+    header .linea{
+        display: none;
+    }
+    .BañeraQuienesSomos{
+        display: none;
+    }
+    .contenedor_img_Resumen{
+        height: 400px;
+    }
+    .elpana{
+        display: none;
+        
+    }
+    footer .Listado_Sucursales{
+        width: 400px;
+    }
+    footer .Iconos_Direcciones{
+        width: 100px;
+    }
+    
+
+}
+@media screen and (max-width:991px){
+    nav{
+        display: none;
+    }
+    .Parrafo_quienesSomos {
+        height: 460px;
+    }
+    .Parrafo_quienesSomos p {
+        margin-bottom: 0px;
+        font-size: 18px;
+        height: 350px
+    }
+    .ContenParrafoYImg{
+        height: 500px;
+    }
+    
+}
+@media screen and (max-width:770px){
+    .Parrafo_quienesSomos {
+        height: 560px;
+    }
+    section .contenedor_parrafo_img{
+        width:520px ;
+    }
+    section .TituloNeon{
+        font-size: 75px;
+    }
+    section .cajaNeon{
+        height: 380px;
+        width: 600px;
+    }
+    .ContenParrafoYImg{
+        height: 550px;
+    }
+}
+@media screen and (max-width:700px){
+    section .cajaNeon{
+        height: 380px;
+        width: 500px;
+    }
+    section .cajaParrafoNeon{
+        height: 150px;
+        width: 490px;
+        
+    }
+}
+@media screen and (max-width:600px){
+    .wrapper .button{
+        right: 80px;
+    }
+    .wrapper .menu{
+        right: 80px;
+    }
+    #Presentacion .container{
+        padding-right: 0px;
+    }
+}
+@media screen and (max-width:520px){
+    section .cajaNeon{
+        width: 400px;
+        height: 350px;
+    }
+    section .cajaNeon h1{
+        font-size: 60px;
+    }
+    section .cajaParrafoNeon{
+        height: 150px;
+        width: 390px;
+        margin-bottom: 10px;
+        
+    }
+    section .cajaParrafoNeon p{
+        font-size: 19px;
+}
+.Parrafo_quienesSomos {
+    height: 650px;
+}
+}
+@media screen and (max-width:500px){
+    section .contenedor_parrafo_img{
+        width:430px ;
+    }
+    section .cajaNeon{
+        height: 320px;
+    }
+    section .TituloNeon{
+        font-size:60px;
+        
+    }
+    section .parrafoNeon{
+        margin-bottom: 30px;
+    }
+    .ContenParrafoYImg{
+        height: 550px;
+    }
+    .ContenParrafoYImg p{
+        font-size: 16px;
+    }
+    .ContenParrafoYImg{
+        height: 600px;
+    }
+    .ContenParrafoYImg p{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:470px){
+    section .contenedor_parrafo_img{
+        width:400px ;
+    }
+    
+    
+}
+@media screen and (max-width:410px){
+    header .LogoHeader{
+        width: 110px;
+        height: 110px;
+        
+    }
+    .wrapper .button{
+        right: 30px;
+    }
+    .wrapper .menu{
+        right: 30px;
+    }
+    section .contenedor_parrafo_img{
+        width:330px ;
+        
+    }
+    section .cajaNeon{
+        height: 290px;
+    }
+    
+    section .TituloNeon{
+        font-size:50px;
+        
+    }
+    section .cajaNeon{
+        width: 330px;
+        height: 290px;
+    }
+    section .cajaNeon h1{
+        font-size: 40px;
+    }
+    section .cajaParrafoNeon{
+        display: none;
+        
+    }
+    .ContenParrafoYImg{
+        height: 700px;
+    }
+    
+}

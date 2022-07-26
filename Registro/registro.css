@@ -12,7 +12,7 @@ body{
     height: 550px;
     background: rgb(5, 5, 5);
     color: white;
-    top:65%;
+    top:50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -100,6 +100,7 @@ body{
 /* REPONSIVE  */
 @media screen and (max-width:470px){
     .login_box{
+        top: 65%;
         width: 400px;
         height: 500px;
  

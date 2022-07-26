@@ -98,6 +98,7 @@ body{
 /* REPONSIVE  */
 @media screen and (max-width:470px){
     .login_box{
+        top: 65%;
         width: 400px;
         height: 500px;
  
